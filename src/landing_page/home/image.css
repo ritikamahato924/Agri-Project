@@ -1,0 +1,169 @@
+.up-image{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+#img{
+    padding: 2px;
+}
+
+.heading{
+    text-align:center;
+    margin-top:20px;
+}
+
+/* FAQ */
+.wrapper{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width:75%;
+  margin:auto;
+  margin-top: 40px;
+  color:#ffffff;
+}
+
+.wrapper .heading02{
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.wrapper .faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pannel{
+  padding: 0 2rem 2.5rem 2rem;
+  margin-top:15px;
+  font-weight: 400;
+  display: none;
+}
+
+.pannel p{
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.wrapper > p, .wrapper > h2{
+  margin:1rem 0;
+  text-align: center;
+}
+
+.wrapper > h4{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.accordion{
+  background-color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width:100%;
+  padding:0.6rem 0.6rem;
+  border:none;
+  outline:none;
+  transition:0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.accordion .icon{
+  font-size: 1.6rem;
+}
+
+.active, .accordion:hover{
+  background-color: #f1f7f5;
+}
+
+.faq{
+  border:1px solid white;
+  margin:10px 0;
+  border-radius: 5px;
+  background-color: #111;
+  transition: all 0.3s ease;
+}
+
+.faq:active{
+  background-color: #1c1c1c;
+  border-color: #00ffff;
+  color:black;
+}
+
+/* .faq .accordion{
+  background-color: #0f0f0f;
+  color:white;
+} */
+
+/*------NAVBAR---------*/
+.navbar{
+  background-color: #1c1c1c;
+  color:white;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+.nav-link{
+  color:#f1f7f5;
+  margin-left:40px;
+}
+
+.nav-link:hover{
+  color:#f1f7f5;
+  font-weight: 700;
+}
+
+/*------FOOTER--------*/
+.list-unstyled .text-white{
+  padding-bottom: 12px;
+}
+
+/*---------------*/
+body {
+
+  background: #0f0f0f;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hover-underline {
+  font-size: 2rem;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ff0000, #00ffff);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
+}
