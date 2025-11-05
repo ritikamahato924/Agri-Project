@@ -1,0 +1,187 @@
+/* 🌿 Login Page (Green Agriculture Theme, Reversed Layout) */
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #a8e063, #56ab2f);
+  font-family: "Poppins", sans-serif;
+}
+
+/* 📦 Main Box */
+.login-box {
+  width: 800px;
+  height: 520px;
+  display: flex;
+  flex-direction: row-reverse; /* 🔁 Reversed layout */
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+
+/* ✏️ Right Side Form */
+.login-left {
+  width: 50%;
+  background-color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-left h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+.login-left p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* 📋 Input Fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #c9e5c1;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #43a047;
+  box-shadow: 0 0 8px rgba(67, 160, 71, 0.3);
+}
+
+/* 🌱 Buttons */
+.login-btn {
+  background: linear-gradient(90deg, #56ab2f, #a8e063);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(90deg, #43a047, #76b852);
+  transform: translateY(-2px);
+}
+
+.google-btn {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #444;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.google-btn:hover {
+  background-color: #1f8106;
+  color: white;
+}
+
+/* ➖ Divider */
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  position: relative;
+}
+
+.divider span {
+  background: #fff;
+  padding: 0 10px;
+  color: #888;
+  position: relative;
+  z-index: 2;
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #ccc;
+  z-index: 1;
+}
+
+/* 🌾 Left Side (Green Gradient Section) */
+.login-right {
+  width: 50%;
+  background: linear-gradient(135deg, #56ab2f, #437407);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.login-right h3 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* 🔗 Footer Text */
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.signup-text a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .login-box {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .login-left {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .login-right {
+    display: none;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .divider {
+    margin: 20px 0;
+  }
+
+  .signup-text {
+    text-align: center;
+  }
+}

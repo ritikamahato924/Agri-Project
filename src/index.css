@@ -1,13 +1,226 @@
+/* 🌾 Address Form Styling (Agriculture Theme) */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+  background: #f8fff6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 📋 Main Container */
+.form-container {
+  background: linear-gradient(135deg, #7cb931, #56ab2f);
+  max-width: 750px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  transition: all 0.3s ease;
 }
+
+.form-container:hover {
+  transform: translateY(-3px);
+}
+
+/* 🏷️ Heading */
+.form-container h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* 🧾 Input Groups */
+.form-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #004d00;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 4px 10px;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+/* ✏️ Inputs */
+.form-group input, 
+.form-group select {
+  padding: 10px 12px;
+  border: 1px solid #c9e5c1;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #388e3c;
+  box-shadow: 0 0 8px rgba(56, 142, 60, 0.3);
+}
+
+/* 📸 Image Preview */
+.image-preview {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.image-preview img {
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid #388e3c;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* 📤 Upload Button */
+.upload-btn {
+  width: 100%;
+  background: linear-gradient(90deg, #56ab2f, #a8e063);
+  color: black;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.upload-btn:hover {
+  background: linear-gradient(90deg, #43a047, #76b852);
+  transform: translateY(-2px);
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .form-container {
+    padding: 25px;
+    margin: 30px 15px;
+  }
+
+  .form-container h2 {
+    font-size: 20px;
+  }
+}
+
+
+
+/* Solution card */
+
+.maincontainer
+{
+    width: 302px;
+    height: 360px;
+    margin-top: 25px;
+    margin-left: 30px;
+    float: left; /* stack each div horizontally */
+    
+}
+
+img
+{
+   border-radius: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.back h5
+{
+    position: absolute;
+    color: #fff;
+}
+
+.back p
+{
+    color:white;
+    position: absolute;
+    top: 50px;
+    font-size: 15px;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+.front h6 i
+{
+    display: block;
+    text-align: center;
+    margin-top: 8px;  /* space below image */
+    color: white;
+    position: static; /* remove absolute positioning */
+
+}
+
+/* style the maincontainer class with all child div's of class .front */
+.maincontainer > .front
+{
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    
+    width: 302px;
+    height: 290px;
+    
+    backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+    transition: transform .5s linear 0s;
+    cursor: pointer;
+    
+}
+
+/* style the maincontainer class with all child div's of class .back */
+.maincontainer > .back
+{
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    background: #262626;
+    color: white;
+    width: 302px;
+    height: 310px;
+    border-radius: 10px;
+    padding: 5px;
+    backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+    transition: transform .5s linear 0s;
+    cursor: pointer;
+    background-color: #556B2F;
+    color: black;
+}
+
+.maincontainer:hover > .front
+{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.maincontainer:hover > .back
+{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.second-card{
+  margin-top: 0;
+}
+
+
+
+.seemore .back{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  
+  
+}
+
