@@ -1,19 +1,40 @@
 # 🌱 Agri Project
 
-A beginner-friendly agriculture platform that helps new farmers learn, access resources, and make better farming decisions using technology. It also helps students understand agriculture basics and modern farming techniques with real-world insights.
+## 📌 Project Description
+This project focuses on agriculture-related solutions. It aims to provide useful insights and tools for improving agricultural practices.
 
-## 🔗 Live Demo
-https://agri-project-zeta.vercel.app/
+---
 
-## 🚀 Features
-- Beginner-friendly farming guidance  
-- Access to important agricultural resources  
-- Learning hub for students  
-- Simple and easy-to-use interface  
+## ⚙️ Installation
 
-## ⚙️ How to Run
-```bash
-git clone https://github.com/your-username/Agri-Project.git
-cd Agri-Project
-npm install
-npm start
+1. Clone the repository:
+   git clone https://github.com/your-username/Agri-Project.git
+
+2. Navigate to the project folder:
+   cd Agri-Project
+
+3. Install dependencies:
+   npm install
+
+4. Run the project:
+   npm start
+
+---
+
+## 🚀 Usage
+Explain how to use the application and its main features.
+
+---
+
+## 📸 Screenshots
+(Add screenshots here if available)
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📄 License
+This project is open-source and available under the MIT License.
