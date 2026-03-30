@@ -29,8 +29,8 @@ Write clean and readable code
 Follow project structure
 
 ### 6. Commit Changes
-git add .
-git commit -m "Add: short description of your changes"
+- git add .
+- git commit -m "Add: short description of your changes"
 
 ### 7. Push Changes
 git push origin feature/your-feature-name
