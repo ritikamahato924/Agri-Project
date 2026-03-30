@@ -17,3 +17,8 @@ git clone https://github.com/your-username/Agri-Project.git
 cd Agri-Project
 npm install
 npm start
+
+```
+
+## 🤝 Contributing
+Before contributing, please read our [Contributing Guide](CONTRIBUTING.md) to follow proper workflow and rules.
