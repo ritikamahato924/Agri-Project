@@ -463,3 +463,24 @@ body::before, body::after {
     margin-bottom: 20px;
   }
 }
+
+/* New Subtitle Styling */
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #e2e8f0;
+  max-width: 800px;
+  /* top | right | bottom | left */
+  /* The negative top margin pulls it up close to the title */
+  margin: -20px auto 30px auto;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+/* Make it slightly smaller on mobile */
+@media (max-width: 768px) {
+  .hero-subtitle {
+    font-size: 1rem;
+    margin: -10px auto 25px auto;
+    padding: 0 15px;
+  }
+}

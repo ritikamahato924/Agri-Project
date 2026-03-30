@@ -6,6 +6,9 @@ function Hero() {
         <div className="container text-center mb-5" style={{ marginTop: "100px" }}>
             <div className="hover-underline heading">“Join India’s Growing Agri Community”<br></br>
                 </div>
+            <p className="hero-subtitle">
+                A platform for farmers, students, and plant enthusiasts to learn, monitor crops, and make smarter decisions with weather insights.
+            </p>
             <div className="row up-image">
                 <div className="col-4" id="img">
                     <img src="/media/images/farm01.jpg" 
