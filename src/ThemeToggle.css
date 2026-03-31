@@ -1,0 +1,86 @@
+.theme-toggle-btn {
+  position: fixed;
+  top: 16px;
+  right: 30px;
+  z-index: 9999;
+  background: linear-gradient(90deg, #333333, #1a1a1a);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(90deg, #1a1a1a, #333333);
+}
+
+body.dark-mode .theme-toggle-btn {
+  background: linear-gradient(90deg, #ffffff, #e6e6e6);
+  color: #333;
+  border: none;
+}
+
+body.dark-mode .theme-toggle-btn:hover {
+  background: linear-gradient(90deg, #e6e6e6, #ffffff);
+}
+
+/* 🌙 Minimal Dark Mode Overrides for existing components */
+body.dark-mode {
+  background: #121212 !important;
+  color: #e0e0e0;
+}
+
+body.dark-mode .form-container {
+  background: linear-gradient(135deg, #244618, #182e0e);
+  box-shadow: 0 6px 25px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .form-container h2 {
+  color: #a8e063;
+}
+
+body.dark-mode .form-group label {
+  color: #a8e063;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group select {
+  background: #1e1e1e;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+body.dark-mode .form-group input:focus,
+body.dark-mode .form-group select:focus {
+  border-color: #a8e063;
+  box-shadow: 0 0 8px rgba(168, 224, 99, 0.3);
+}
+
+body.dark-mode .upload-btn {
+  background: linear-gradient(90deg, #43a047, #2e7d32);
+  color: white;
+}
+
+body.dark-mode .upload-btn:hover {
+  background: linear-gradient(90deg, #2e7d32, #1b5e20);
+}
+
+/* Solution Cards styling */
+body.dark-mode .maincontainer > .back {
+  background-color: #3b4f23;
+  color: #f0f0f0;
+}
+
+body.dark-mode .front h6 i, 
+body.dark-mode .back p,
+body.dark-mode .back h5 {
+  color: #f0f0f0;
+}

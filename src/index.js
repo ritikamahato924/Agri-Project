@@ -9,11 +9,13 @@ import PageSolution from './PageSolution';
 import Signup from './landing_page/signup/Signup';
 import Login from './landing_page/signup/Login';
 import Ecommerce from './landing_page/signup/Ecommerce';
+import ThemeToggle from './ThemeToggle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <ThemeToggle />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/new" element={<FormNew/>} />
