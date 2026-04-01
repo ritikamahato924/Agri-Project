@@ -1,36 +1,3 @@
-.theme-toggle-btn {
-  position: fixed;
-  top: 16px;
-  right: 30px;
-  z-index: 9999;
-  background: linear-gradient(90deg, #333333, #1a1a1a);
-  color: #fff;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 10px;
-  cursor: pointer;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
-}
-
-.theme-toggle-btn:hover {
-  transform: translateY(-2px);
-  background: linear-gradient(90deg, #1a1a1a, #333333);
-}
-
-body.dark-mode .theme-toggle-btn {
-  background: linear-gradient(90deg, #ffffff, #e6e6e6);
-  color: #333;
-  border: none;
-}
-
-body.dark-mode .theme-toggle-btn:hover {
-  background: linear-gradient(90deg, #e6e6e6, #ffffff);
-}
-
 /* 🌙 Minimal Dark Mode Overrides for existing components */
 body.dark-mode {
   background: #121212 !important;

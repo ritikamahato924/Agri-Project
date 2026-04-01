@@ -5,13 +5,11 @@ const ThemeToggle = () => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    // 3. On reload, load the saved theme automatically
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
       setIsDark(true);
       document.body.classList.add('dark-mode');
     }
-    // 4. Default theme remains the current existing theme (light) if not set
   }, []);
 
   const toggleTheme = () => {
@@ -26,12 +24,25 @@ const ThemeToggle = () => {
     }
   };
 
-  // 1. Add a simple toggle button
   return (
-    <button className="theme-toggle-btn" onClick={toggleTheme}>
-      {isDark ? '☀️ Light Mode' : '🌙 Dark Mode'}
-    </button>
-  );
+    <span
+      onClick={toggleTheme}
+      style={{
+        cursor: "pointer",
+        fontSize: "1.4rem",
+        padding: "4px 8px",
+        borderRadius: "6px",
+        transition: "background 0.3s ease",
+        display: "inline-flex",
+        alignItems: "center",
+      }}
+      title={isDark ? "Light Mode" : "Dark Mode"}
+      onMouseEnter={(e) => e.target.style.background = "rgba(255,255,255,0.1)"}
+      onMouseLeave={(e) => e.target.style.background = "transparent"}
+    >
+      {isDark ? "☀️" : "🌙"}
+    </span>
+);
 };
 
 export default ThemeToggle;
