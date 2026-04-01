@@ -1,12 +1,10 @@
-/* 🌾 Address Form Styling (Agriculture Theme) */
-
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: #f8fff6;
 }
 
-/* 📋 Main Container */
+/* Main Container */
 .form-container {
   background: linear-gradient(135deg, #7cb931, #56ab2f);
   max-width: 750px;
@@ -22,7 +20,7 @@ body {
   transform: translateY(-3px);
 }
 
-/* 🏷️ Heading */
+/* Heading */
 .form-container h2 {
   text-align: center;
   color: #ffffff;
@@ -31,7 +29,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* 🧾 Input Groups */
+/* Input Groups */
 .form-group {
   margin-bottom: 18px;
   display: flex;
@@ -48,7 +46,7 @@ body {
   width: fit-content;
 }
 
-/* ✏️ Inputs */
+/* Inputs */
 .form-group input, 
 .form-group select {
   padding: 10px 12px;
@@ -65,7 +63,7 @@ body {
   box-shadow: 0 0 8px rgba(56, 142, 60, 0.3);
 }
 
-/* 📸 Image Preview */
+/* Image Preview */
 .image-preview {
   display: flex;
   justify-content: center;
@@ -81,7 +79,7 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* 📤 Upload Button */
+/* Upload Button */
 .upload-btn {
   width: 100%;
   background: linear-gradient(90deg, #56ab2f, #a8e063);
@@ -101,7 +99,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* 📱 Responsive */
+/* Responsive */
 @media (max-width: 768px) {
   .form-container {
     padding: 25px;
