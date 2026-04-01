@@ -234,7 +234,7 @@ body {
   color: #d4ffd4;
 }
 
-/* 🌿 Signup Button (first child) */
+/* Signup Button (first child) */
 .nav-item:first-child .nav-link {
   background: linear-gradient(90deg, #009e60, #00b140);
   color: #fff !important;
@@ -248,7 +248,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* 🌱 Login Button (second child) */
+/* Login Button (second child) */
 .nav-item:nth-child(2) .nav-link {
   background: linear-gradient(90deg, #56ab2f, #a8e063);
   color: #fff !important;
@@ -262,7 +262,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* 🛒 E-commerce Button (last child) */
+/*E-commerce Button (last child) */
 .nav-item:last-child .nav-link {
   background: linear-gradient(90deg, #43cea2, #185a9d);
   color: #fff !important;
@@ -296,8 +296,6 @@ body {
   color:white;
 }
 
-
-
 /* logo */
 .logo img {
   width: 140px;        /* medium default */
@@ -320,7 +318,7 @@ body {
 
 
 
-/* 🌾 Footer Styling – Green Theme */
+/* Footer Styling – Green Theme */
 .footer {
   background: linear-gradient(135deg, #004d00, #00b140); /* deep-to-light green */
   color: #ffffff;
