@@ -84,3 +84,14 @@ body.dark-mode .back p,
 body.dark-mode .back h5 {
   color: #f0f0f0;
 }
+
+/* Mobile fix - move toggle button below navbar */
+@media (max-width: 1199px) {
+  .theme-toggle-btn {
+    top: 80px;
+    right: 15px;
+    z-index: 999;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}
