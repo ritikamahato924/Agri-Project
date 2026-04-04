@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg bg-dark border-bottom fixed-top">
@@ -10,7 +10,6 @@ function Navbar() {
                         style={{ width: "70px", height: "80px", marginRight: "8px" }} />
                     <Link className='home ps-4' to="/">Home</Link>
                 </a>
-
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent"
@@ -18,7 +17,6 @@ function Navbar() {
                     aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 nav-links align-items-center gap-2">
                         <li className="nav-item">
@@ -31,6 +29,12 @@ function Navbar() {
                             <Link className="nav-link detect-btn" to="/detect-disease">Detect Disease</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link" to="/about">About</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/contact">Contact</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link signup-btn" to="/signup">Sign up</Link>
                         </li>
                         <li className="nav-item">
@@ -39,11 +43,20 @@ function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link ecommerce-btn" to="/ecommerce">E-commerce</Link>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#!" target="_blank" rel="noopener noreferrer">
+                                <FaGithub size={20} />
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#!" target="_blank" rel="noopener noreferrer">
+                                <FaLinkedin size={20} />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     );
 }
-
 export default Navbar;
