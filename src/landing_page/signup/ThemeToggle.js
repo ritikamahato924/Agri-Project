@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './ThemeToggle.css';
+import Navbar from "../Navbar";
 
 const ThemeToggle = () => {
   const [isDark, setIsDark] = useState(false);
@@ -28,9 +29,12 @@ const ThemeToggle = () => {
 
   // 1. Add a simple toggle button
   return (
-    <button className="theme-toggle-btn" onClick={toggleTheme}>
-      {isDark ? '☀️ Light Mode' : '🌙 Dark Mode'}
-    </button>
+    <>
+      <Navbar/>
+      <button className="theme-toggle-btn" onClick={toggleTheme}>
+        {isDark ? '☀️' : '🌙'}
+      </button>
+    </>
   );
 };
 

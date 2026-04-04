@@ -233,6 +233,35 @@ body {
 .nav-link:hover {
   color: #d4ffd4;
 }
+
+/* Features Button */
+.nav-item .nav-link.features-btn {
+  background: linear-gradient(90deg, #009e60, #00b140);
+  color: #fff !important;
+  border-radius: 10px;
+  padding: 8px 16px;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+.nav-item .nav-link.features-btn:hover {
+  background: linear-gradient(90deg, #00b140, #009e60);
+  transform: translateY(-2px);
+}
+
+/* Learn Button */
+.nav-item .nav-link.learn-btn {
+  background: linear-gradient(90deg, #56ab2f, #a8e063);
+  color: #fff !important;
+  border-radius: 10px;
+  padding: 8px 16px;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+.nav-item .nav-link.learn-btn:hover {
+  background: linear-gradient(90deg, #76b852, #8DC26F);
+  transform: translateY(-2px);
+}
+
 /* Sign up Button */
 .nav-item .nav-link.signup-btn {
   background: linear-gradient(90deg, #009e60, #00b140);

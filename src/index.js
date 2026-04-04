@@ -8,7 +8,7 @@ import PageSolution from './PageSolution';
 import Signup from './landing_page/signup/Signup';
 import Login from './landing_page/signup/Login';
 import Ecommerce from './landing_page/signup/Ecommerce';
-import ThemeToggle from './ThemeToggle';
+import ThemeToggle from './landing_page/signup/ThemeToggle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +22,7 @@ root.render(
         <Route path="/signup" element={<Signup/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/ecommerce" element={<Ecommerce/>} />
+        <Route path="/themeToggle" element={<ThemeToggle/>} />
 
       </Routes>
     </BrowserRouter>

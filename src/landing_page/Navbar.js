@@ -22,13 +22,13 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 nav-links align-items-center gap-2">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/features">Features</Link>
+                            <Link className="nav-link features-btn" to="/features">Features</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/learn">Learn</Link>
+                            <Link className="nav-link learn-btn" to="/learn">Learn</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link detect-btn" to="/detect-disease">🔬 Detect Disease</Link>
+                            <Link className="nav-link detect-btn" to="/detect-disease">Detect Disease</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link signup-btn" to="/signup">Sign up</Link>
