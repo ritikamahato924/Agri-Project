@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import ThemeToggle from "./signup/ThemeToggle";
 
 function Navbar() {
     return (
@@ -39,6 +40,7 @@ function Navbar() {
                         </li>
                     </ul>
                 </div>
+                <ThemeToggle />
             </div>
         </nav>
     );

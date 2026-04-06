@@ -250,3 +250,35 @@ img
 .footer-links a:hover, .footer-socials a:hover{
   opacity: 0.7;
 }
+/* ===== DARK MODE GLOBAL ===== */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #f0f0f0 !important;
+}
+
+body.dark-mode .navbar {
+  background-color: #1a1a1a !important;
+}
+
+body.dark-mode footer {
+  background-color: #1a1a1a !important;
+  color: #ccc !important;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e !important;
+  color: #f0f0f0 !important;
+  border-color: #444 !important;
+}
+
+body.dark-mode .form-control,
+body.dark-mode input,
+body.dark-mode textarea {
+  background-color: #2a2a2a !important;
+  color: #f0f0f0 !important;
+  border-color: #555 !important;
+}
+
+body.dark-mode .btn {
+  filter: brightness(0.9);
+}

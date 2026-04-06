@@ -10,24 +10,24 @@ import Login from './landing_page/signup/Login';
 import Ecommerce from './landing_page/signup/Ecommerce';
 import ThemeToggle from './landing_page/signup/ThemeToggle';
 import DetectDisease from './landing_page/signup/DetectDisease';
+import { ThemeProvider } from './context/ThemeContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ThemeProvider> 
     <BrowserRouter>
-      <ThemeToggle />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/new" element={<FormNew/>} />
         <Route path="/solution" element={<PageSolution/>} />
         <Route path="/signup" element={<Signup/>} />
         <Route path="/login" element={<Login/>} />
-        <Route path="/ecommerce" element={<Ecommerce/>} />
-        <Route path="/themeToggle" element={<ThemeToggle/>} />
         <Route path="/detect-disease" element={<DetectDisease/>} />
 
       </Routes>
     </BrowserRouter>
+    </ThemeProvider> 
   </React.StrictMode>
 );
 
