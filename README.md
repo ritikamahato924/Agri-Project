@@ -30,6 +30,12 @@ It provides an easy-to-understand platform for:
 - 🔧 Version Control: Git & GitHub
 
 ##  📸 Screenshots
+Home Page
+<img width="1366" height="645" alt="agri-image01" src="https://github.com/user-attachments/assets/f476a2b8-8cfa-417d-a2a6-43b134d19ec9" />
+
+E-commerce Page
+<img width="1360" height="639" alt="agri-image02" src="https://github.com/user-attachments/assets/89cc2a1a-4d98-473d-b0a4-a79d968156c5" />
+
 
 ## ⚙️ How to Run
 
@@ -53,12 +59,12 @@ npm start
 
 We welcome contributions from everyone 💙
 
-### Before contributing, please read our
+Before contributing, please read our
 👉 [Contributing Guide](CONTRIBUTING.md)
 
-### 🌟 Support
+## 🌟 Support
 
-## If you like this project:
+### If you like this project:
 - ⭐ Star this repository
 - 🍴 Fork it
 - 📢 Share it with others
@@ -69,47 +75,48 @@ Thank you to the following contributors:
 
 <div align="center">
 
-<a href="https://github.com/ritikamahato924">
-  <img src="https://images.weserv.nl/?url=github.com/ritikamahato924.png&h=100&w=100&fit=cover&mask=circle" width="100"/>
-</a>
-
-<a href="https://github.com/Codergoterrors">
+<a href="https://github.com/Codergoterrors" style="margin:10px; display:inline-block; text-align:center;">
   <img src="https://images.weserv.nl/?url=github.com/Codergoterrors.png&h=100&w=100&fit=cover&mask=circle" width="100"/>
+  <sub><b>Codergoterrors</b></sub>
 </a>
 
-<a href="https://github.com/K-Tanish">
+<a href="https://github.com/K-Tanish" style="margin:10px; display:inline-block; text-align:center;">
   <img src="https://images.weserv.nl/?url=github.com/K-Tanish.png&h=100&w=100&fit=cover&mask=circle" width="100"/>
+	<sub><b>K-Tanish</b></sub>
 </a>
 
-<a href="https://github.com/NearInfinity999">
+<a href="https://github.com/NearInfinity999" style="margin:10px; display:inline-block; text-align:center;">
 	<img src="https://images.weserv.nl/?url=github.com/NearInfinity999.png&h=100&w=100&fit=cover&mask=circle" width="100" alt="NearInfinity999"/>	
+	<sub><b>NearInfinity999</b></sub>
 </a>
 		
-<a href="https://github.com/arishaix">
+<a href="https://github.com/arishaix" style="margin:10px; display:inline-block; text-align:center;">
 	<img src="https://images.weserv.nl/?url=github.com/arishaix.png&h=100&w=100&fit=cover&mask=circle" width="100" alt="arishaix"/>
+	<sub><b>arishaix</b></sub>
 </a>
 		
-<a href="https://github.com/ambujvashistha">
+<a href="https://github.com/ambujvashistha" style="margin:10px; display:inline-block; text-align:center;">
 	<img src="https://images.weserv.nl/?url=github.com/ambujvashistha.png&h=100&w=100&fit=cover&mask=circle" width="100" alt="ambujvashistha"/>
+	<sub><b>ambujvashistha</b></sub>
 </a>
 
-<a href="https://github.com/Amanyadav0556">
+<a href="https://github.com/Amanyadav0556" style="margin:10px; display:inline-block; text-align:center;">
 	<img src="https://images.weserv.nl/?url=github.com/Amanyadav0556.png&h=100&w=100&fit=cover&mask=circle" width="100" alt="Amanyadav0556"/>
+	<sub><b>Amanyadav0556</b></sub>
 </a>
 
-<a href="https://github.com/wali-WallE">
+<a href="https://github.com/wali-WallE" style="margin:10px; display:inline-block; text-align:center;">
 	<img src="https://images.weserv.nl/?url=github.com/wali-WallE.png&h=100&w=100&fit=cover&mask=circle" width="100" alt="wali-WallE"/>
+	<sub><b>wali-WallE</b></sub>
 </a>
 
-<a href="https://github.com/OTWL">
+<a href="https://github.com/OTWL" style="margin:10px; display:inline-block; text-align:center;">
 	<img src="https://images.weserv.nl/?url=github.com/OTWL.png&h=100&w=100&fit=cover&mask=circle" width="100" alt="OTWL"/>
+	<sub><b>OTWL</b></sub>
 </a>
 
 </div>
 
-### 📄 License
-
-This project is licensed under the MIT License (you can add a LICENSE file if not added yet)
 
 ### 💬 Feedback
 
