@@ -85,7 +85,7 @@ function Hero() {
                     </Link>
                 </div>
             </div>
-
+            <hr></hr>
         </div>
      );
 }
