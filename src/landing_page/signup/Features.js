@@ -1,9 +1,11 @@
- import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Navbar from '../Navbar';
+import Footer from '../Footer';
 
 function Features() {
     return (
-        <div>
+        <>
+            <div>
             <Navbar />
             <div className="container text-center mb-5" style={{ marginTop: "100px" }}>
                 <div className="hover-underline heading">
@@ -83,6 +85,8 @@ function Features() {
 
         </div>
         </div>
+        <Footer />
+        </>
     );
 }
 
