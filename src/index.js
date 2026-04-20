@@ -11,6 +11,7 @@ import Ecommerce from './landing_page/signup/Ecommerce';
 import ThemeToggle from './landing_page/signup/ThemeToggle';
 import DetectDisease from './landing_page/signup/DetectDisease';
 import Features from './landing_page/signup/Features';
+import Learn from './landing_page/signup/Learn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
         <Route path="/themeToggle" element={<ThemeToggle/>} />
         <Route path="/detect-disease" element={<DetectDisease/>} />
         <Route path="/features" element={<Features/>} />
+        <Route path="/learn" element={<Learn/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
