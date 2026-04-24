@@ -95,3 +95,25 @@ body.dark-mode .back h5 {
     font-size: 14px;
   }
 }
+
+/* 1. All Large Outer Wrappers */
+body.dark-mode .signup-page,
+body.dark-mode .login-page,
+body.dark-mode .auth-container,
+body.dark-mode .ecommerce-page,
+body.dark-mode .detect-page {
+    background-color: #121212 !important;
+    background: #121212 !important;
+    min-height: 100vh;
+}
+
+/* 2. All Internal Content Boxes/Cards */
+body.dark-mode .signup-box,
+body.dark-mode .login-box,
+body.dark-mode .product-card,
+body.dark-mode .upload-box,
+body.dark-mode .result-card {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 1px solid #333 !important;
+}
